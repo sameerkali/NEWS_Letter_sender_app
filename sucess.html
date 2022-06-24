@@ -5,23 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
+
+    <form action="/failure.html" method="post">
+        <button type="submit" name="button" class="btn btn-lg btn-warning mx-3 ">Go Back</button>
+    </form>
+    <h1>YOU ARE AWESOME </h1>
+
     <style>
         body {
-            object-fit:cover ;
-            /* position: relative;
-            image-rendering: auto; */
+            object-fit: cover;
+            position: absolute;
             /* background-image: url(https://luqmaniherbs.com/wp-content/uploads/2016/11/Thank-you-for-subscribing.png); */
-            background-image: url(https://images.unsplash.com/photo-1594574468389-47556c295d5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80) ;
+            background-image: url(https://images.unsplash.com/photo-1594574468389-47556c295d5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80);
             /* display: block;
             margin-left: auto;
             margin-right: auto; */
             /* width: 100vw; */
         }
+
+        h1 {
+            font-family: 'Joan', serif;
+            /* font-family: 'Kdam Thmor Pro', sans-serif; */
+            font-size: 7rem;
+            position: relative;
+            margin-top: 2rem;
+            left: 10rem;
+        }
+
+        button {
+            position: relative;
+            margin-top: 19rem;
+            left: 38rem;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            body{
+                max-height: 10px;
+            }
+            h1 {
+                left: 4rem;
+                font-size: 2rem;
+                text-align: center;
+            }
+            button {
+            position: relative;
+            margin-top: 19rem;
+            left: 8.5rem;
+        }
+        }
     </style>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
